@@ -28,7 +28,7 @@ services:
       MYSQL_HOST_AUTH_METHOD: trust
     domainname: "backend-a2"
     ports:
-      - 3306:3306
+      - 3307:3306
     deploy:
       resources:
         reservations:
