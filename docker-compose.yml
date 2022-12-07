@@ -8,8 +8,8 @@ services:
       - 8080:8080
     environment:
       SPRING_RABBITMQ_HOST: rabbitmq
-      DB_IP: demo-db
-      RABBIT_IP: demo-rabbit
+      DB_IP: db
+      RABBIT_IP: rabbitmq
       DB_PORT: 3306
       DB_USER: root
       DB_PASSWORD: cara12345
