@@ -10,7 +10,6 @@ services:
       SPRING_RABBITMQ_HOST: rabbitmq
       DB_IP: db
       RABBIT_IP: rabbitmq
-      DB_PORT: 3306
       DB_USER: root
       DB_PASSWORD: cara12345
       DB_DBNAME: energy_utility_platform
@@ -28,7 +27,7 @@ services:
       MYSQL_HOST_AUTH_METHOD: trust
     domainname: "backend-a2"
     ports:
-      - 3306:3306
+      - 3307:3306
     deploy:
       resources:
         reservations:
